@@ -3,7 +3,7 @@ CREATE TABLE movies (
     title VARCHAR(100),
     genre VARCHAR(50),
     duration INTEGER,
-    language VARCHAR(50));
+    language VARCHAR(50)); 
 
 CREATE TABLE theaters (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
