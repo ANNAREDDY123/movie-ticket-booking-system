@@ -60,8 +60,7 @@ SELECT
         ORDER BY ticket_sales DESC
     ) AS movie_rank
 FROM
-(
-    SELECT
+( SELECT
         m.title AS movie_name,
         COUNT(b.id) AS ticket_sales
     FROM movies m
